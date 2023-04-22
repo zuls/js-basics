@@ -35,4 +35,16 @@ console.log(person);
 let selectedColors = ['red', 'blue'];
 selectedColors[2] = 'green';
 selectedColors[3] = 1;
-console.log(selectedColors);
+console.log(selectedColors.length);
+
+
+//function
+
+function greet(name){
+    console.log('from function ' + name);
+}
+
+greet('kamal')
+
+const numbers = new Array(1,2,3,4,5,6);
+console.log(numbers)
