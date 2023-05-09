@@ -29,6 +29,9 @@ let amount = 0.2 + 0.1;
 
 console.log(amount)
 
-let pageView = 11920109n;
+let pageView = 1192_1109n;
 
 console.log(pageView);
+
+console.log(parseInt('111',4));
+
