@@ -46,4 +46,14 @@ console.log(result_102);
 
 
 
+let energy = {
+    valueOf(){
+        return 100;
+    }
+};
+
+let currentEnergy = energy -10;
+console.log(currentEnergy);
+
+
 
