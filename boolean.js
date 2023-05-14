@@ -40,3 +40,10 @@ let result_101 = 10 + '20';
 console.log(result_101);
 
 
+let result_102 = '51' * 2;
+
+console.log(result_102);
+
+
+
+
