@@ -35,5 +35,8 @@ let z_val = x_val +y_val;
 
 console.log(z_val);
 
+let result_101 = 10 + '20';
+
+console.log(result_101);
 
 
