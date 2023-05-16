@@ -56,4 +56,29 @@ let currentEnergy = energy -10;
 console.log(currentEnergy);
 
 
+function isOdd(num){
+    return num % 2; 
+}
 
+console.log(isOdd(4));
+
+//ES6 function declaration 
+
+const isOdd_es6 = (num) => num % 2; 
+
+console.log(isOdd_es6(5));
+
+
+let title='x'; 
+
+title ||='untitled'; 
+
+console.log(title);
+
+let user102 = {
+    username : 'Zularbine'
+};
+
+user102.nickname ??='Kamal';
+
+console.log(user102);
