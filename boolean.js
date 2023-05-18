@@ -82,3 +82,7 @@ let user102 = {
 user102.nickname ??='Kamal';
 
 console.log(user102);
+
+
+let result_103 = Math.pow(2,2);
+console.log(result_103);
