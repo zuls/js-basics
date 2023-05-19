@@ -112,3 +112,35 @@ if (age_101 >= 16 && country === 'USA' ){
     console.log('you are not eligible to drive');
 }
 
+let month = 7;
+let nameMonth; 
+
+if (month === 1 ){
+    nameMonth = 'Jan';
+}else if (month === 2){
+    nameMonth = 'Feb';
+}else if (month === 3){
+    nameMonth = 'Mar';
+}else if (month === 4){
+    nameMonth = 'Apr';
+}else if (month === 5){
+    nameMonth = 'May';
+}else if (month === 6){
+    nameMonth = 'Jun';
+}else if (month === 7){
+    nameMonth = 'Jul';
+}else if (month === 8){
+    nameMonth = 'Aug';
+}else if (month === 9){
+    nameMonth = 'Sep';
+}else if (month === 10){
+    nameMonth = 'Oct';
+}else if (month === 11){
+    nameMonth = 'Nov';
+}else if (month === 12){
+    nameMonth = 'Dec';
+}else{
+    nameMonth = 'Invalid Month'
+}
+
+console.log(nameMonth)
