@@ -86,3 +86,29 @@ console.log(user102);
 
 let result_103 = Math.pow(2,2);
 console.log(result_103);
+
+let result_104 = 2**2;
+console.log(result_104);
+
+
+let score  = new Array(10);
+score[0] ='10';
+score[4] ='50';
+score[9] = '90';
+
+console.log(score);
+console.log('lengh of the array score is : ', score.length);
+
+let score_101 = [10,12];
+console.log(score_101);
+
+let age_101 = 19; 
+let country = 'USA';
+
+if (age_101 >= 16 && country === 'USA' ){
+    console.log('You are eligible to drive');
+
+} else {
+    console.log('you are not eligible to drive');
+}
+
