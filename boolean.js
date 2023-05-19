@@ -144,3 +144,14 @@ if (month === 1 ){
 }
 
 console.log(nameMonth)
+
+
+
+let age_102 = 15;
+let message_102;
+
+message_102 = age_102 >= 16 ? 'you are eligible': 'you are under aged';
+
+console.log(message_102);
+
+
