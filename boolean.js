@@ -155,3 +155,16 @@ message_102 = age_102 >= 16 ? 'you are eligible': 'you are under aged';
 console.log(message_102);
 
 
+//let authenticated = false;
+//let nextURL = authenticated ? (alert('you will be redicted to admin area', '/admin')) : (alert('access denied','/403'));
+
+//console.log(nextURL);
+
+
+let speed = 150;
+
+let message_103 = speed >=120 ? 'Over speed' : speed >=80 ? 'High speed' : speed>=60? 'Slow' : 'Ok';
+
+console.log(message_103)
+
+
