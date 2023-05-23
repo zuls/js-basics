@@ -66,3 +66,26 @@ outer: for (let i =1; i<=3; i++){
     }
 }
 
+for (let i_101=0; i_101<=10; i_101++){
+    if (i_101 % 2 === 0)
+        continue;
+    console.log(i_101);
+}
+
+function add(a,b){
+    return a+b;
+}
+
+console.log(add(20,10));
+
+
+function add_101(){
+    let sum = 0
+    for (let i_102 = 0; i_102 < arguments.length; i_102++){
+
+        sum += arguments[i_102];
+    }
+    return sum;
+}
+
+console.log(add_101(2,4,4));
