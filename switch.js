@@ -89,3 +89,19 @@ function add_101(){
 }
 
 console.log(add_101(2,4,4));
+
+
+function add_102(a,b){
+    return a+b;
+}
+
+let sum_101 = add_102;
+
+function average_101(a, b, fn){
+    return fn(a,b) / 2;
+}
+
+let result_105 = average_101(5,3,sum_101);
+
+console.log(result_105);
+
