@@ -105,3 +105,12 @@ let result_105 = average_101(5,3,sum_101);
 
 console.log(result_105);
 
+
+
+let numbers_105 = [5,7,2,8,1,8,6,5];
+
+numbers_105.sort((a,b) => b-a );
+
+console.log(numbers_105);
+
+
