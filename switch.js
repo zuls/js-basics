@@ -118,3 +118,17 @@ let show = (function(){
 });
 
 show();
+
+
+let person_102={
+    firstname: 'John',
+    lastname: 'Maxwell'
+};
+
+//(function(){
+//    console.log(person_102.firstname + ' ' + person_102.lastname);
+//}) (person_102);
+
+show_102 = () => console.log(person_102.firstname + ' ' + person_102.lastname);
+
+show_102(person_102);
