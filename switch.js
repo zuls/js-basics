@@ -113,4 +113,8 @@ numbers_105.sort((a,b) => b-a );
 
 console.log(numbers_105);
 
+let show = (function(){
+    console.log("this is interesting ..");
+});
 
+show();
