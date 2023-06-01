@@ -129,6 +129,12 @@ let person_102={
 //    console.log(person_102.firstname + ' ' + person_102.lastname);
 //}) (person_102);
 
-show_102 = () => console.log(person_102.firstname + ' ' + person_102.lastname);
+show_102 = (x) => console.log(x.firstname + ' ' + x.lastname);
 
 show_102(person_102);
+
+
+add_103 = (a,b) => a+b;
+
+
+console.log(add_103(5,4));
